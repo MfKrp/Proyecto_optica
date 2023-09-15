@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Familiar\\source\\repos\\Perfil_Vendedor\\Perfil_Vendedor\\Perfil_Vendedor.csproj": {}
+    "C:\\Users\\Familiar\\Source\\Repos\\Proyecto_optica\\Perfil_Vendedor\\Perfil_Vendedor\\Perfil_Vendedor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Familiar\\source\\repos\\Perfil_Vendedor\\Perfil_Vendedor\\Perfil_Vendedor.csproj": {
+    "C:\\Users\\Familiar\\Source\\Repos\\Proyecto_optica\\Perfil_Vendedor\\Perfil_Vendedor\\Perfil_Vendedor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Familiar\\source\\repos\\Perfil_Vendedor\\Perfil_Vendedor\\Perfil_Vendedor.csproj",
+        "projectUniqueName": "C:\\Users\\Familiar\\Source\\Repos\\Proyecto_optica\\Perfil_Vendedor\\Perfil_Vendedor\\Perfil_Vendedor.csproj",
         "projectName": "Perfil_Vendedor",
-        "projectPath": "C:\\Users\\Familiar\\source\\repos\\Perfil_Vendedor\\Perfil_Vendedor\\Perfil_Vendedor.csproj",
+        "projectPath": "C:\\Users\\Familiar\\Source\\Repos\\Proyecto_optica\\Perfil_Vendedor\\Perfil_Vendedor\\Perfil_Vendedor.csproj",
         "packagesPath": "C:\\Users\\Familiar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Familiar\\source\\repos\\Perfil_Vendedor\\Perfil_Vendedor\\obj\\",
+        "outputPath": "C:\\Users\\Familiar\\Source\\Repos\\Proyecto_optica\\Perfil_Vendedor\\Perfil_Vendedor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
