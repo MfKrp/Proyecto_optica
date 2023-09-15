@@ -16,5 +16,10 @@ namespace Perfil_Vendedor
         {
             InitializeComponent();
         }
+
+        private void LDireccion_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

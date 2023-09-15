@@ -48,6 +48,7 @@
             TApellido = new TextBox();
             TNombre = new TextBox();
             LApellido = new Label();
+            label3 = new Label();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
@@ -56,10 +57,10 @@
             // 
             // BGuardar
             // 
-            BGuardar.BackColor = Color.AliceBlue;
+            BGuardar.BackColor = Color.FromArgb(255, 128, 0);
             BGuardar.Font = new Font("Tw Cen MT", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            BGuardar.ForeColor = Color.FromArgb(0, 64, 64);
-            BGuardar.Location = new Point(214, 462);
+            BGuardar.ForeColor = Color.White;
+            BGuardar.Location = new Point(265, 438);
             BGuardar.Name = "BGuardar";
             BGuardar.Size = new Size(84, 33);
             BGuardar.TabIndex = 11;
@@ -70,11 +71,11 @@
             // 
             LTitulo.AutoSize = true;
             LTitulo.BackColor = Color.DarkSlateGray;
-            LTitulo.Font = new Font("Tw Cen MT", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            LTitulo.Font = new Font("Copperplate Gothic Bold", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             LTitulo.ForeColor = Color.White;
-            LTitulo.Location = new Point(122, 9);
+            LTitulo.Location = new Point(129, 9);
             LTitulo.Name = "LTitulo";
-            LTitulo.Size = new Size(250, 31);
+            LTitulo.Size = new Size(332, 30);
             LTitulo.TabIndex = 10;
             LTitulo.Text = "MODIFICAR CLIENTE";
             // 
@@ -84,7 +85,7 @@
             panel2.Controls.Add(panel1);
             panel2.Location = new Point(27, 43);
             panel2.Name = "panel2";
-            panel2.Size = new Size(455, 412);
+            panel2.Size = new Size(542, 389);
             panel2.TabIndex = 12;
             // 
             // panel1
@@ -92,14 +93,14 @@
             panel1.BackColor = Color.Khaki;
             panel1.Controls.Add(panel3);
             panel1.Controls.Add(panel4);
-            panel1.Location = new Point(12, 12);
+            panel1.Location = new Point(13, 12);
             panel1.Name = "panel1";
-            panel1.Size = new Size(429, 386);
+            panel1.Size = new Size(515, 365);
             panel1.TabIndex = 7;
             // 
             // panel3
             // 
-            panel3.BackColor = Color.DarkOliveGreen;
+            panel3.BackColor = Color.FromArgb(0, 64, 64);
             panel3.Controls.Add(label2);
             panel3.Controls.Add(TCorreo);
             panel3.Controls.Add(LTelefono);
@@ -107,27 +108,27 @@
             panel3.Controls.Add(TTelefono);
             panel3.Controls.Add(LCorreo);
             panel3.Controls.Add(TDireccion);
-            panel3.Location = new Point(0, 198);
+            panel3.Location = new Point(0, 190);
             panel3.Name = "panel3";
-            panel3.Size = new Size(431, 165);
+            panel3.Size = new Size(515, 158);
             panel3.TabIndex = 13;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Tw Cen MT", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Font = new Font("Copperplate Gothic Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(16, 17);
+            label2.Location = new Point(12, 10);
             label2.Name = "label2";
-            label2.Size = new Size(130, 19);
+            label2.Size = new Size(155, 16);
             label2.TabIndex = 13;
             label2.Text = "INFO. CONTACTO";
             // 
             // TCorreo
             // 
-            TCorreo.Location = new Point(83, 72);
+            TCorreo.Location = new Point(34, 69);
             TCorreo.Name = "TCorreo";
-            TCorreo.Size = new Size(327, 23);
+            TCorreo.Size = new Size(232, 23);
             TCorreo.TabIndex = 12;
             // 
             // LTelefono
@@ -135,7 +136,7 @@
             LTelefono.AutoSize = true;
             LTelefono.Font = new Font("Tw Cen MT", 12F, FontStyle.Regular, GraphicsUnit.Point);
             LTelefono.ForeColor = Color.White;
-            LTelefono.Location = new Point(163, 36);
+            LTelefono.Location = new Point(319, 47);
             LTelefono.Name = "LTelefono";
             LTelefono.Size = new Size(63, 19);
             LTelefono.TabIndex = 0;
@@ -146,17 +147,18 @@
             LDireccion.AutoSize = true;
             LDireccion.Font = new Font("Tw Cen MT", 12F, FontStyle.Regular, GraphicsUnit.Point);
             LDireccion.ForeColor = Color.White;
-            LDireccion.Location = new Point(8, 113);
+            LDireccion.Location = new Point(35, 116);
             LDireccion.Name = "LDireccion";
             LDireccion.Size = new Size(65, 19);
             LDireccion.TabIndex = 1;
             LDireccion.Text = "Dirección";
+            LDireccion.Click += LDireccion_Click;
             // 
             // TTelefono
             // 
-            TTelefono.Location = new Point(239, 32);
+            TTelefono.Location = new Point(319, 69);
             TTelefono.Name = "TTelefono";
-            TTelefono.Size = new Size(171, 23);
+            TTelefono.Size = new Size(158, 23);
             TTelefono.TabIndex = 8;
             // 
             // LCorreo
@@ -164,7 +166,7 @@
             LCorreo.AutoSize = true;
             LCorreo.Font = new Font("Tw Cen MT", 12F, FontStyle.Regular, GraphicsUnit.Point);
             LCorreo.ForeColor = Color.White;
-            LCorreo.Location = new Point(16, 72);
+            LCorreo.Location = new Point(34, 47);
             LCorreo.Name = "LCorreo";
             LCorreo.Size = new Size(53, 19);
             LCorreo.TabIndex = 2;
@@ -172,14 +174,15 @@
             // 
             // TDireccion
             // 
-            TDireccion.Location = new Point(83, 113);
+            TDireccion.Location = new Point(150, 116);
             TDireccion.Name = "TDireccion";
             TDireccion.Size = new Size(327, 23);
             TDireccion.TabIndex = 7;
             // 
             // panel4
             // 
-            panel4.BackColor = Color.DarkOliveGreen;
+            panel4.BackColor = Color.FromArgb(0, 64, 64);
+            panel4.Controls.Add(label3);
             panel4.Controls.Add(label1);
             panel4.Controls.Add(TDni);
             panel4.Controls.Add(LNombre);
@@ -187,25 +190,25 @@
             panel4.Controls.Add(TApellido);
             panel4.Controls.Add(TNombre);
             panel4.Controls.Add(LApellido);
-            panel4.Location = new Point(0, 19);
+            panel4.Location = new Point(0, 15);
             panel4.Name = "panel4";
-            panel4.Size = new Size(431, 164);
+            panel4.Size = new Size(515, 169);
             panel4.TabIndex = 14;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Tw Cen MT", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Copperplate Gothic Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(16, 16);
+            label1.Location = new Point(8, 75);
             label1.Name = "label1";
-            label1.Size = new Size(145, 19);
+            label1.Size = new Size(186, 16);
             label1.TabIndex = 12;
             label1.Text = "DATOS PERSONALES";
             // 
             // TDni
             // 
-            TDni.Location = new Point(270, 25);
+            TDni.Location = new Point(206, 33);
             TDni.Name = "TDni";
             TDni.Size = new Size(140, 23);
             TDni.TabIndex = 11;
@@ -215,7 +218,7 @@
             LNombre.AutoSize = true;
             LNombre.Font = new Font("Tw Cen MT", 12F, FontStyle.Regular, GraphicsUnit.Point);
             LNombre.ForeColor = Color.White;
-            LNombre.Location = new Point(35, 73);
+            LNombre.Location = new Point(8, 103);
             LNombre.Name = "LNombre";
             LNombre.Size = new Size(61, 19);
             LNombre.TabIndex = 4;
@@ -226,7 +229,7 @@
             LDni.AutoSize = true;
             LDni.Font = new Font("Tw Cen MT", 12F, FontStyle.Regular, GraphicsUnit.Point);
             LDni.ForeColor = Color.White;
-            LDni.Location = new Point(212, 29);
+            LDni.Location = new Point(163, 33);
             LDni.Name = "LDni";
             LDni.Size = new Size(34, 19);
             LDni.TabIndex = 6;
@@ -234,16 +237,16 @@
             // 
             // TApellido
             // 
-            TApellido.Location = new Point(129, 115);
+            TApellido.Location = new Point(8, 125);
             TApellido.Name = "TApellido";
-            TApellido.Size = new Size(281, 23);
+            TApellido.Size = new Size(243, 23);
             TApellido.TabIndex = 9;
             // 
             // TNombre
             // 
-            TNombre.Location = new Point(129, 73);
+            TNombre.Location = new Point(265, 125);
             TNombre.Name = "TNombre";
-            TNombre.Size = new Size(281, 23);
+            TNombre.Size = new Size(243, 23);
             TNombre.TabIndex = 10;
             // 
             // LApellido
@@ -251,18 +254,29 @@
             LApellido.AutoSize = true;
             LApellido.Font = new Font("Tw Cen MT", 12F, FontStyle.Regular, GraphicsUnit.Point);
             LApellido.ForeColor = Color.White;
-            LApellido.Location = new Point(34, 115);
+            LApellido.Location = new Point(265, 103);
             LApellido.Name = "LApellido";
             LApellido.Size = new Size(62, 19);
             LApellido.TabIndex = 3;
             LApellido.Text = "Apellido";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Tw Cen MT", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(3, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(307, 15);
+            label3.TabIndex = 13;
+            label3.Text = "Ingrese el DNI del cliente al cual desea realizar modificaciones";
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DarkSlateGray;
-            ClientSize = new Size(503, 507);
+            ClientSize = new Size(595, 483);
             Controls.Add(BGuardar);
             Controls.Add(LTitulo);
             Controls.Add(panel2);
@@ -300,5 +314,6 @@
         private TextBox TApellido;
         private TextBox TNombre;
         private Label LApellido;
+        private Label label3;
     }
 }
