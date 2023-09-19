@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Perfil_Vendedor", "Perfil_Vendedor\Perfil_Vendedor.csproj", "{243C301E-B8CF-48CF-9058-78B70E2E927D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perfil_secretaria", "..\Perfil_secretaria\Perfil_secretaria.csproj", "{EA00E15A-4B56-4393-835A-07535B9EE01E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Perfil_secretaria", "..\Perfil_secretaria\Perfil_secretaria.csproj", "{EA00E15A-4B56-4393-835A-07535B9EE01E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perfil_superadmin", "Perfil_superadmin\Perfil_superadmin.csproj", "{F15C0D0E-CDEF-407C-ADE0-C866AC8CF2DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EA00E15A-4B56-4393-835A-07535B9EE01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA00E15A-4B56-4393-835A-07535B9EE01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA00E15A-4B56-4393-835A-07535B9EE01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15C0D0E-CDEF-407C-ADE0-C866AC8CF2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15C0D0E-CDEF-407C-ADE0-C866AC8CF2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15C0D0E-CDEF-407C-ADE0-C866AC8CF2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15C0D0E-CDEF-407C-ADE0-C866AC8CF2DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
