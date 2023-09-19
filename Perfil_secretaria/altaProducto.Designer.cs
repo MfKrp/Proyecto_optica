@@ -41,10 +41,10 @@
             TPrecio = new TextBox();
             TDescripcion = new TextBox();
             TStock = new TextBox();
-            comboBox1 = new ComboBox();
-            comboBox2 = new ComboBox();
-            comboBox3 = new ComboBox();
-            comboBox4 = new ComboBox();
+            DGenero = new ComboBox();
+            DTipo = new ComboBox();
+            DMarca = new ComboBox();
+            DEstilo = new ComboBox();
             BGuardar = new Button();
             SuspendLayout();
             // 
@@ -157,37 +157,37 @@
             TStock.Size = new Size(100, 23);
             TStock.TabIndex = 12;
             // 
-            // comboBox1
+            // DGenero
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(535, 72);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 13;
+            DGenero.FormattingEnabled = true;
+            DGenero.Location = new Point(535, 72);
+            DGenero.Name = "DGenero";
+            DGenero.Size = new Size(121, 23);
+            DGenero.TabIndex = 13;
             // 
-            // comboBox2
+            // DTipo
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(535, 151);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(121, 23);
-            comboBox2.TabIndex = 14;
+            DTipo.FormattingEnabled = true;
+            DTipo.Location = new Point(535, 151);
+            DTipo.Name = "DTipo";
+            DTipo.Size = new Size(121, 23);
+            DTipo.TabIndex = 14;
             // 
-            // comboBox3
+            // DMarca
             // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(535, 236);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(121, 23);
-            comboBox3.TabIndex = 15;
+            DMarca.FormattingEnabled = true;
+            DMarca.Location = new Point(535, 236);
+            DMarca.Name = "DMarca";
+            DMarca.Size = new Size(121, 23);
+            DMarca.TabIndex = 15;
             // 
-            // comboBox4
+            // DEstilo
             // 
-            comboBox4.FormattingEnabled = true;
-            comboBox4.Location = new Point(535, 320);
-            comboBox4.Name = "comboBox4";
-            comboBox4.Size = new Size(121, 23);
-            comboBox4.TabIndex = 16;
+            DEstilo.FormattingEnabled = true;
+            DEstilo.Location = new Point(535, 320);
+            DEstilo.Name = "DEstilo";
+            DEstilo.Size = new Size(121, 23);
+            DEstilo.TabIndex = 16;
             // 
             // BGuardar
             // 
@@ -204,10 +204,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(BGuardar);
-            Controls.Add(comboBox4);
-            Controls.Add(comboBox3);
-            Controls.Add(comboBox2);
-            Controls.Add(comboBox1);
+            Controls.Add(DEstilo);
+            Controls.Add(DMarca);
+            Controls.Add(DTipo);
+            Controls.Add(DGenero);
             Controls.Add(TStock);
             Controls.Add(TDescripcion);
             Controls.Add(TPrecio);
@@ -242,10 +242,10 @@
         private TextBox TPrecio;
         private TextBox TDescripcion;
         private TextBox TStock;
-        private ComboBox comboBox1;
-        private ComboBox comboBox2;
-        private ComboBox comboBox3;
-        private ComboBox comboBox4;
+        private ComboBox DGenero;
+        private ComboBox DTipo;
+        private ComboBox DMarca;
+        private ComboBox DEstilo;
         private Button BGuardar;
     }
 }
