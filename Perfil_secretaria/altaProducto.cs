@@ -1,10 +1,11 @@
 namespace Perfil_secretaria
 {
-    public partial class Form1 : Form
+    public partial class altaProducto : Form
     {
-        public Form1()
+        public altaProducto()
         {
             InitializeComponent();
         }
+
     }
 }
